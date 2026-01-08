@@ -74,6 +74,7 @@
     width: 88%;
     max-width: 1360px;
     margin: auto;
+    margin-bottom: 120px;
     
 }
 .note-content-text h4{
@@ -123,4 +124,58 @@
 .card p{
     color: #627382;
     margin-bottom: 20px;
+}
+#brain{
+    padding: px;
+}
+.brain-content {
+    width: 88%;
+    max-width: 1360px;
+    margin: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 60px;
+}
+.brain-content-text {
+    width: 500px;
+}
+.brain-content-text #first{
+    color: #469165;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.brain-content-text h2 {
+    /* width: 500px; */
+    color: #001931;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.brain-content-text #second {
+    /* width: 500px; */
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.brain-content-text .list {
+    color: #001931;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.list li i{
+     position: relative;
+    margin-bottom: 8px;
+    line-height: 26px;
+    color: #30B868;
+    padding-left: 0px;
+    /* color: #001931; */
+}
+.list li::before {
+    /* content: "✓"; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #001931;
+  font-weight: bold; 
 }
