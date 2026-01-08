@@ -20,6 +20,25 @@
     background-color: #469165;
     color: white;
     border-radius: 4px;
-    margin: 10px 12px 10px 12px;
+    margin: 10px 10px;
     border: none;
+    padding: 1px 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #F15B22;
+}
+#hero {
+    height: 650px;
+    background-image: url("./assets/hero-bg.png");
+    padding: 115px 120px 180px 120px;
+}
+.hero-content {
+    width: 88%;
+    max-width: 1360px;
+    margin: auto;
+    /* display: flex; */
+
+    /* align-items: center; */
+    text-align: center;
 }
