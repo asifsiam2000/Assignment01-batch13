@@ -64,11 +64,18 @@
     border: 1px solid white;
      padding: 10px 20px;
 }
+.hero-content .buton i {
+    background-color: none;
+    margin-right: 5px;
+}
 .hero-content .buton:hover {
     background-color: #F15B22;
 }
 .hero-content .btn {
     padding: 10px 20px;
+}
+.hero-content .btn i {
+    margin-left: 5px;
 }
 .notes-content {
     width: 88%;
