@@ -70,3 +70,57 @@
 .hero-content .btn {
     padding: 10px 20px;
 }
+.notes-content {
+    width: 88%;
+    max-width: 1360px;
+    margin: auto;
+    
+}
+.note-content-text h4{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.note-content-text p {
+    text-align: center;
+    line-height: 20px;
+    color: #627382;
+}
+.note-content-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding-top: 44px;
+}
+.note-content-card .card {
+    text-align: center;
+    padding: auto;
+    align-items: center;
+}
+.icon{
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-left: 125px;
+      background-color: #F95555;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 16px;
+}
+.icon img {
+  width: 30px;    
+  height: auto;   
+}
+.card h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.card p{
+    color: #627382;
+    margin-bottom: 20px;
+}
