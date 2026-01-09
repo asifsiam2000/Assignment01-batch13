@@ -38,18 +38,11 @@
     width: 50%;
     max-width: 770px;
     margin: auto;
-    /* display: flex; */
-
-    /* align-items: center; */
     text-align: center;
 }
 .hero-content #sepcial-btn {
     color: #30B868;
     background-color: white;
-    /* border-bottom-left-radius: 30% ;
-    border-bottom-right-radius: 30%;
-    border-top-left-radius: 30%;
-    border-top-right-radius: 30%; */
     border-radius: 9999px;
     cursor: pointer;
 }
@@ -159,7 +152,6 @@
     max-width: 1360px;
     margin: auto;
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     gap: 60px;
     margin-bottom: 120px;
@@ -173,13 +165,11 @@
     margin-bottom: 16px;
 }
 .brain-content-text h2 {
-    /* width: 500px; */
     color: #001931;
     font-size: 48px;
     margin-bottom: 16px;
 }
 .brain-content-text #second {
-    /* width: 500px; */
     color: #627382;
     line-height: 20px;
     margin-bottom: 30px;
@@ -196,10 +186,8 @@
     line-height: 26px;
     color: #30B868;
     padding-left: 0px;
-    /* color: #001931; */
 }
 .list li::before {
-    /* content: "✓"; */
   position: absolute;
   left: 0;
   top: 0;
@@ -212,7 +200,6 @@
 .think-content {
     width: 88%;
     max-width: 1360px;
-    /* margin: 80px 40px; */
     margin: auto;
     background-color: #F7F6F2;
     display: flex;
