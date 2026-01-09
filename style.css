@@ -206,3 +206,16 @@
     color: #001931;
     margin-bottom: 16px;
 }
+.think-content .think-content-text #one  {
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.think-content .think-content-text .btn {
+    padding: 10px 20px;
+    margin-bottom: 16px;
+}
+.think-content .think-content-text #two {
+    color: #627382;
+    line-height: 20px;
+}
