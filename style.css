@@ -143,6 +143,7 @@
     /* justify-content: space-between; */
     align-items: center;
     gap: 60px;
+    margin-bottom: 120px;
 }
 .brain-content-text {
     width: 500px;
@@ -185,4 +186,23 @@
   top: 0;
   color: #001931;
   font-weight: bold; 
+}
+#think {
+    margin-bottom: 120px;
+}
+.think-content {
+    width: 88%;
+    max-width: 1360px;
+    /* margin: 80px 40px; */
+    margin: auto;
+    background-color: #F7F6F2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 40px;
+}
+.think-content .think-content-text h2{
+    font-size: 40px;
+    color: #001931;
+    margin-bottom: 16px;
 }
